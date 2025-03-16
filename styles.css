@@ -1,0 +1,45 @@
+* {
+    color: white;
+    font-family: impact;
+}
+body {
+    background: darkslategray;
+}
+#heading {
+    font-family: impact;
+    text-align: center;
+}
+#puzzle {
+    font-family: impact;
+    font-size: 1.2rem;
+}
+.button {
+    margin: auto;
+    width: 150px;
+    height: 80px;
+    font-family: impact;
+    background: #4e6db1;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.2rem;
+}
+#setup {
+    font-size: 1.3rem;
+    text-align: center;
+}
+#DaJaMeanings {
+    font-size: 1.3rem;
+    text-align: center;
+}
+#randomAnswer {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#alfonsoce11 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 70px;
+    width: 70px;
+}
