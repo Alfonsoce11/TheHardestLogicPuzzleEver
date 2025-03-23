@@ -16,11 +16,11 @@ body {
 }
 #puzzle {
     font-family: impact;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 .button {
     margin: auto;
-    width: 150px;
+    width: 40vw;
     height: 80px;
     font-family: impact;
     background: #4e6db1;
