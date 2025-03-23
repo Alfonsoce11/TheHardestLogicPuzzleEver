@@ -12,7 +12,7 @@ body {
 #heading {
     font-family: impact;
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 #puzzle {
     font-family: impact;
@@ -26,11 +26,16 @@ body {
     background: #4e6db1;
     border-radius: 10px;
     display: block;
-    font-size: 1.5vw;
+    font-size: 3vw;
 }
 @media (max-width: 600px) {
     .button {
         width: 90vw;
+        font-size: 5vw;
+    }
+    #alfonsoce11 {
+        height: 15vw;
+        width: 15vw;
     }
 }
 #setup {
@@ -50,6 +55,6 @@ body {
     position: absolute;
     left: 5px;
     top: 5px;
-    height: 70px;
-    width: 70px;
+    height: 8vw;
+    width: 8vw;
 }
