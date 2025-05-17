@@ -1,16 +1,16 @@
 :root {
-    font-size: 24px;
+    --BGColor: darkslategray;
+    --fontSize: 1.5rem;
+}
+html {
+    font-size: 16px;
 }
 * {
     color: white;
     font-family: impact;
 }
-html {
-    font-size: 24px;
-}
 body {
-    background: darkslategray;
-    font-size: 1rem;
+    background: var(--BGColor);
 }
 #heading {
     font-family: impact;
@@ -19,7 +19,7 @@ body {
 }
 #puzzle {
     font-family: impact;
-    font-size: 1rem;
+    font-size: var(--fontSize);
 }
 .button {
     margin: auto;
@@ -29,7 +29,7 @@ body {
     background: #4e6db1;
     border-radius: 10px;
     display: block;
-    font-size: 1rem;
+    font-size: var(--fontSize);
 }
 .button:hover {
     background: #6f85cc
@@ -40,15 +40,15 @@ body {
     }
 }
 #setup {
-    font-size: 1rem;
+    font-size: var(--fontSize);
     text-align: center;
 }
 #DaJaMeanings {
-    font-size: 1rem;
+    font-size: var(--fontSize);
     text-align: center;
 }
 #randomAnswer {
-    font-size: 1rem;
+    font-size: var(--fontSize);
     text-align: center;
 }
 
