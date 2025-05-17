@@ -16,7 +16,7 @@ body {
 }
 #puzzle {
     font-family: impact;
-    font-size: 3vw;
+    font-size: 1rem;
 }
 .button {
     margin: auto;
@@ -26,7 +26,7 @@ body {
     background: #4e6db1;
     border-radius: 10px;
     display: block;
-    font-size: 3vw;
+    font-size: 1rem;
 }
 .button:hover {
     background: #6f85cc
@@ -34,23 +34,18 @@ body {
 @media (max-width: 600px) {
     .button {
         width: 90vw;
-        font-size: 5vw;
-    }
-    #alfonsoce11 {
-        height: 15vw;
-        width: 15vw;
     }
 }
 #setup {
-    font-size: 3vw;
+    font-size: 1rem;
     text-align: center;
 }
 #DaJaMeanings {
-    font-size: 3vw;
+    font-size: 1rem;
     text-align: center;
 }
 #randomAnswer {
-    font-size: 3vw;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -58,6 +53,6 @@ body {
     position: absolute;
     left: 5px;
     top: 5px;
-    height: 8vw;
-    width: 8vw;
+    height: 70px;
+    width: 70px;
 }
