@@ -1,9 +1,12 @@
+:root {
+    font-size: 24px;
+}
 * {
     color: white;
     font-family: impact;
 }
 html {
-    font-size: 16px;
+    font-size: 24px;
 }
 body {
     background: darkslategray;
@@ -12,7 +15,7 @@ body {
 #heading {
     font-family: impact;
     text-align: center;
-    font-size: 5vw;
+    font-size: 2rem;
 }
 #puzzle {
     font-family: impact;
